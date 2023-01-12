@@ -1,4 +1,4 @@
-#!/Users/thanhle/Desktop/meta-fullstack/env/bin/python3
+#!/Users/thanhle/Desktop/meta-fullstack/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
