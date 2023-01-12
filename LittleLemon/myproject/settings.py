@@ -76,9 +76,11 @@ WSGI_APPLICATION = "myproject.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "OPTIONS": {
-            'read_default_file': '/etc/mysql/my.cnf',
-        },
+        "NAME": 'littlelemon',
+        "HOST": '127.0.0.1',
+        'USER': 'root',
+        'PASSWORD': 'password',
+        'PORT': '3306'
     }
 }
 
