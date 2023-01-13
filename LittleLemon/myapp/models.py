@@ -1,7 +1,8 @@
 from django.db import models
 
 # Create your models here.
-class User(models.Model):
+
+''' class User(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
 
@@ -17,4 +18,10 @@ class Teacher(models.Model):
         on_delete=models.CASCADE
     )
     Qualification = models.CharField(max_length=50)
-    email = models.EmailField(max_length=50)
+    email = models.EmailField(max_length=50) '''
+
+#Create models 
+class UserComments(models.Model):
+    first_name = models.CharField(max_length=200)
+    last_name = models.CharField(max_length=200)
+    comment = models.TextField(max_length=1000)
